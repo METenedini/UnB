@@ -1,0 +1,110 @@
+def separador_resist(resistencia):
+  dado1,tolerancia=resistencia.split()
+
+  for i in dado1:
+    if i=='m':
+      mult=i
+      a_significativo,space=dado1.split('m')
+
+    elif i=='-':
+      mult=i
+      a_significativo,space=dado1.split('-')
+
+    elif i=='K':
+      mult=i
+      a_significativo,space=dado1.split('K')
+
+    elif i=='M':
+      mult=i
+      a_significativo,space=dado1.split('M')
+
+    elif i=='G':
+      mult=i
+      a_significativo,space=dado1.split('G')
+  return a_significativo,mult,tolerancia
+
+def IEC60062(resistencia):
+  cores= []
+  a_sign,mult,tol=separador_resist(resistencia)
+  lista=list(a_sign)
+  sub_mult=0
+  for i in range(len(lista)):
+    if lista[i]=='0' :
+      cores.append('Preta')
+    elif lista[i]=='1':
+      cores.append('Marrom')  
+    elif lista[i]=='2':
+      cores.append('Vermelha')
+    elif lista[i]=='3':
+      cores.append('Laranja')
+    elif lista[i]=='4':
+      cores.append('Amarela')
+    elif lista[i]=='5':
+      cores.append('Verde')
+    elif lista[i]=='6':
+      cores.append('Azul')
+    elif lista[i]=='7':
+      cores.append('Violeta')
+    elif lista[i]=='8':
+      cores.append('Cinza')
+    elif lista[i]=='9':
+      cores.append('Branco')
+    elif lista[i]=='.':
+      sub_mult=len(lista)-(i+1)
+      
+  if sub_mult==0:
+    if mult=='m':
+        cores.append('Rosa')
+    elif mult=='-':
+        cores.append('Preta')
+    elif mult=='K':
+        cores.append('Laranja')
+    elif mult=='M':
+        cores.append('Azul')
+    elif mult=='G':
+        cores.append('Branca')
+  elif sub_mult==1:
+    if mult=='-' and sub_mult==1:
+        cores.append('Dourada')
+    elif mult=='K' and sub_mult==1:
+        cores.append('Vermelha')
+    elif mult=='M' and sub_mult==1:
+        cores.append('Verde')
+    elif mult=='G' and sub_mult==1:
+        cores.append('Cinza')
+  elif sub_mult==2:
+    if mult=='-' and sub_mult==2:
+        cores.append('Prata')
+    elif mult=='K' and sub_mult==2:
+        cores.append('Marrom')
+    elif mult=='M' and sub_mult==2:
+        cores.append('Amarela')
+    elif mult=='G' and sub_mult==2:
+        cores.append('Violeta')
+
+  if tol=='0.01':
+    cores.append('Cinza')
+  elif tol=='0.1':
+    cores.append('Violeta')
+  elif tol=='0.25':
+    cores.append('Azul')
+  elif tol=='0.5':
+    cores.append('Verde')
+  elif tol=='0.02':
+    cores.append('Amarela')
+  elif tol=='0.05':
+    cores.append('Laranja')
+  elif tol=='2':
+    cores.append('Vermelha')
+  elif tol=='1':
+    cores.append('Marrom')
+  elif tol=='5':
+    cores.append('Dourada')
+  elif tol=='10':
+    cores.append('Prata')
+  elif tol=='20':
+    cores.append('Nenhuma')
+  return cores
+
+resistencia=input()
+IEC60062(resistencia)
