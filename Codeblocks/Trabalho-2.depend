@@ -1,0 +1,177 @@
+# depslib dependency file v1.0
+1701171189 source:/home/luricl/Documents/tp1/Trabalho-2/comandos.cpp
+	"comandos.h"
+
+1701350236 /home/luricl/Documents/tp1/Trabalho-2/comandos.h
+	"interfaces.h"
+	"Dominios e Entidades/dominios.h"
+	"Dominios e Entidades/entidades.h"
+	<stdexcept>
+	<iostream>
+	<cstdlib>
+
+1701385942 /home/luricl/Documents/tp1/Trabalho-2/interfaces.h
+	"Dominios e Entidades/dominios.h"
+	"Dominios e Entidades/entidades.h"
+	<stdexcept>
+
+1701424847 /home/luricl/Documents/tp1/Trabalho-2/Dominios e Entidades/dominios.h
+	<string>
+	<stdexcept>
+
+1701357761 /home/luricl/Documents/tp1/Trabalho-2/Dominios e Entidades/entidades.h
+	"dominios.h"
+	<string>
+	<vector>
+
+1701445010 source:/home/luricl/Documents/tp1/Trabalho-2/controladoras.cpp
+	"Dominios e Entidades/dominios.h"
+	"Dominios e Entidades/entidades.h"
+	"controladoras.h"
+	"containers.h"
+	"comandos.h"
+
+1701356007 /home/lurian/Documents/tp1/Trabalho-2/controladoras.h
+	"interfaces.h"
+	"Dominios e Entidades/dominios.h"
+	"containers.h"
+	<stdexcept>
+	<iostream>
+	<cstdlib>
+
+1701444961 /home/luricl/Documents/tp1/Trabalho-2/containers.h
+	"Dominios e Entidades/dominios.h"
+	"Dominios e Entidades/entidades.h"
+	<iostream>
+	<stack>
+	<map>
+
+1701006000 source:/home/luricl/Documents/tp1/Trabalho-2/Dominios e Entidades/dominios.cpp
+	"dominios.h"
+	"cctype"
+	"exception"
+	<cstring>
+	<algorithm>
+	<iostream>
+
+1701444355 source:/home/luricl/Documents/tp1/Trabalho-2/stubs.cpp
+	"stubs.h"
+
+1701444251 /home/luricl/Documents/tp1/Trabalho-2/stubs.h
+	"interfaces.h"
+	<stdexcept>
+	<iostream>
+
+1701171189 source:/home/luricl/Documents/tp1/Trabalho-2/main.cpp
+	<stdexcept>
+	<iostream>
+	<string>
+	"Dominios e Entidades/dominios.h"
+	"Dominios e Entidades/entidades.h"
+	"interfaces.h"
+	"controladoras.h"
+	"builders.h"
+
+1701386011 /home/luricl/Documents/tp1/Trabalho-2/builders.h
+	"interfaces.h"
+	"controladoras.h"
+	"stubs.h"
+
+1701423605 /home/luricl/Documents/tp1/Trabalho-2/controladoras.h
+	"interfaces.h"
+	"Dominios e Entidades/dominios.h"
+	"containers.h"
+	<stdexcept>
+	<iostream>
+	<cstdlib>
+
+1701444378 source:/home/luricl/Documents/tp1/Trabalho-2/builders.cpp
+	"builders.h"
+
+1701444899 source:/home/luricl/Documents/tp1/Trabalho-2/containers.cpp
+	"containers.h"
+
+1701464454 source:c:\users\katia\desktop\emanuel\c++\trabalho2\builders.cpp
+	"builders.h"
+
+1701464442 c:\users\katia\desktop\emanuel\c++\trabalho2\builders.h
+	"interfaces.h"
+	"controladoras.h"
+	"stubs.h"
+
+1701461066 c:\users\katia\desktop\emanuel\c++\trabalho2\interfaces.h
+	"Dominios e Entidades/dominios.h"
+	"Dominios e Entidades/entidades.h"
+	<stdexcept>
+
+1701464469 c:\users\katia\desktop\emanuel\c++\trabalho2\dominios e entidades\dominios.h
+	<string>
+	<stdexcept>
+
+1701445963 c:\users\katia\desktop\emanuel\c++\trabalho2\dominios e entidades\entidades.h
+	"dominios.h"
+	<string>
+	<vector>
+
+1701465604 c:\users\katia\desktop\emanuel\c++\trabalho2\controladoras.h
+	"interfaces.h"
+	"Dominios e Entidades/dominios.h"
+	"containers.h"
+	<stdexcept>
+	<iostream>
+	<cstdlib>
+
+1701457804 c:\users\katia\desktop\emanuel\c++\trabalho2\containers.h
+	"Dominios e Entidades/dominios.h"
+	"Dominios e Entidades/entidades.h"
+	<iostream>
+	<stack>
+	<map>
+
+1701445963 c:\users\katia\desktop\emanuel\c++\trabalho2\stubs.h
+	"interfaces.h"
+	<stdexcept>
+	<iostream>
+
+1701445963 source:c:\users\katia\desktop\emanuel\c++\trabalho2\comandos.cpp
+	"comandos.h"
+
+1701445963 c:\users\katia\desktop\emanuel\c++\trabalho2\comandos.h
+	"interfaces.h"
+	"Dominios e Entidades/dominios.h"
+	"Dominios e Entidades/entidades.h"
+	<stdexcept>
+	<iostream>
+	<cstdlib>
+
+1701546426 source:c:\users\katia\desktop\emanuel\c++\trabalho2\containers.cpp
+	"containers.h"
+
+1701464316 source:c:\users\katia\desktop\emanuel\c++\trabalho2\controladoras.cpp
+	"Dominios e Entidades/dominios.h"
+	"Dominios e Entidades/entidades.h"
+	"controladoras.h"
+	"containers.h"
+	"comandos.h"
+
+1701445963 source:c:\users\katia\desktop\emanuel\c++\trabalho2\dominios e entidades\dominios.cpp
+	"dominios.h"
+	"cctype"
+	"exception"
+	<cstring>
+	<algorithm>
+	<iostream>
+
+1701445963 source:c:\users\katia\desktop\emanuel\c++\trabalho2\main.cpp
+	<stdexcept>
+	<iostream>
+	<string>
+	"Dominios e Entidades/dominios.h"
+	"Dominios e Entidades/entidades.h"
+	"interfaces.h"
+	"controladoras.h"
+	"builders.h"
+
+1701445963 source:c:\users\katia\desktop\emanuel\c++\trabalho2\stubs.cpp
+	"stubs.h"
+
